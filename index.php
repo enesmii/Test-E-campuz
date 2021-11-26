@@ -6,11 +6,11 @@ if (!$_SESSION["is_login"] === TRUE) {
     exit;
 }
 ?>
-<html>
 
+<html>
 <head>
     <title>
-        Membuat Login Simple Modular e-campuz | Kodingin
+        Membuat Login Simple Modular e-campuz
     </title>
     <style>
         .wrapper {
@@ -23,17 +23,16 @@ if (!$_SESSION["is_login"] === TRUE) {
             width: 100%;
             height: 40px;
             border: 1px solid black;
-            padding: 5px;
+            padding: 10px;
         }
     </style>
 </head>
 
 <body>
     <div class="wrapper">
-        <h3>Welcome</h3>
-        <p>Anda sudah berhasil login </p>
+        <h4>Welcome</h4>
+        <h6>Anda sudah berhasil login </h6>
             <a href="logout.php">Logout</a>
-        </p>
     </div>
 </body>
 </html>
