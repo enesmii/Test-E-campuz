@@ -1,0 +1,17 @@
+<?php
+
+$aplikasi[1]='gtAkademik';
+$aplikasi[2]='gtFinansi';
+$aplikasi[3]='gtPerizinan';
+$aplikasi[4]='ecampuz';
+$aplikasi[5]='e0viz';
+
+echo "Menampilkan Array Loop";
+
+$index=0;
+while($index < count($aplikasi)){
+	echo $aplikasi[$index]."<br>";
+	$index++;
+}
+
+?>
