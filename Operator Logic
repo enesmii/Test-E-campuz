@@ -1,0 +1,12 @@
+<?php
+
+echo floor(7.2); 
+echo "<br>";
+echo floor(9.4);
+echo "<br>";
+echo floor(17.4);
+echo "<br>";
+echo floor(19.2);
+echo "<br>";
+
+?>
