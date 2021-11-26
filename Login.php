@@ -14,7 +14,7 @@
     form input {
         width: 100%;
         height: 40px;
-        border: 1px solid black;
+        border: 1px solid yellow;
         padding: 5px;
     }
 </style>
@@ -23,15 +23,15 @@
     <div class="wrapper">
         <h1>Login</h1>
         <form action="proses_login.php" method="POST">
-            <p>
+            <h4>
                 <input type="User name " placeholder="username" name="username">
-            </p>
-            <p>
+            </h4>
+            <h4>
                 <input type="password" placeholder="password" name="password">
-            </p>
-            <p>
+            </h4>
+            <h4>
                 <input type="submit" value="Login">
-            </p>
+            </h4>
         </form>
     </div>
 </body>
